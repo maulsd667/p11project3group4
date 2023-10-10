@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
 }
+
 body{
     width: 100px;
     height: 750px;
@@ -11,14 +12,16 @@ body{
     padding: auto;
     background: linear-gradient(90deg, rgba(0,255,231,1) 0%, rgba(0,255,149,1) 100%);
 }
+
 .solicitar{
     background-color: #ED00C5;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        font-family: 'Roboto', sans-serif;
-        box-shadow: 10xp black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .solicitar:hover {
     background-color: #ED00C5;
@@ -32,7 +35,6 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 370px;
-    radi
 }
 .control{
     background: rgb(0, 145, 255);
