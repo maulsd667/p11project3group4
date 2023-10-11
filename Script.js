@@ -4,7 +4,7 @@ console.log(parametrosGet);
 
 const fetchButton = document.querySelector('button.solicitar');
 const url = document.querySelector('input#link');
-const respuesta = document.querySelector('#respuestaApi');
+const respuesta = document.querySelector('#texto');
 
 fetchButton.addEventListener('click', async () =>{
     const apiUrl = url.value;
