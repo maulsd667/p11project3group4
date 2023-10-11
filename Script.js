@@ -11,7 +11,7 @@ fetchButton.addEventListener('click', async () =>{
     try{
         const response = await fetch(apiUrl);
         const data = await response.json();
-        respuesta.textContent= JSON.stringify(data, null, 2);
+        respuesta.textContent= `Status Code: ${response.status}\n\n${JSON.stringify(data, null, 2)}`;
     }catch(error){
         respuesta.textContent ='Error al obtener datos. Asegurate de que la URL de al API sea valida'
     }
