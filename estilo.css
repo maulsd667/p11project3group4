@@ -6,71 +6,88 @@
 }
 
 body{
-    width: 100px;
-    height: 750px;
-    margin: auto;
-    padding: auto;
     background: linear-gradient(90deg, rgba(0,255,231,1) 0%, rgba(0,255,149,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#contenedor{
+    background: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding: 90px;
+    width: 800px;
+    flex-direction: column;
+}
+
+#solicitar{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+#solicitar:hover{
+    background-color: rgba(29, 174, 111, 0.51);
+    transition: 1s;
+    border-radius: 3px;
 }
 
 .solicitar{
-    background-color: #ED00C5;
-    color: white;
+    background:none;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    margin-left: 30px;
-    margin-right: 20px;
-    font-family: 'Roboto', sans-serif;
 }
-.solicitar:hover {
+/*.solicitar:hover {
     background-color: #ED00C5;
 }
 .solicitar:active {
     background-color: #ED00C5;
-}
-.contenedor{
-    width: 100px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    margin-top: 370px;
-}
+}*/
+
 .control{
+    height: 30px;
     background: rgb(0, 145, 255);
     color: blue;
     border-color: blue;
+    border-radius: 3px;
+    margin-left: 10px;
 }
+
 #option{
+    height: 30px;
     background: rgb(188, 255, 247);
     color: rgb(0, 0, 0);
     border-color: blue;
+    border-radius: 3px;
+    margin-left: 20px;
 }
+
 .option{
+    height: 30px;
     background: rgb(188, 255, 247);
     color: rgb(0, 0, 0);
     border-color: blue;
+    border-radius: 3px;
 }
+
 #link{
+    width: 400px;
+    height: 30px;
     background: rgb(188, 255, 247);
     color: rgb(0, 0, 0);
     border-color: blue;
+    border-radius: 3px;
 }
 
-
-
-
-
-
-
-
-
-      
-     
-         
-
-
-
-   
- 
-    
+#texto{
+    height: 150px;
+    width: 500px;
+    margin: 20px;
+    margin-left: 40px;
+    border-radius: 6px;
+    resize: none;
+}

@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <section class="contenedor">
+    <section class="contenedor" id="contenedor">
         <label for="" class="control"></label>
         <select name="" id="option">
-            <option class="option" value="">get</option>
-            <option class="option" value="">post</option>
-            <option class="option" value="">put</option>
-            <option class="option" value="">patch</option>
-            <option class="option" value="">delete</option>
-            <option class="option" value="">head</option>
-            <option class="option" value="">options</option>
+            <option class="option" value="">Get</option>
+            <option class="option" value="">Post</option>
+            <option class="option" value="">Put</option>
+            <option class="option" value="">Patch</option>
+            <option class="option" value="">Delete</option>
+            <option class="option" value="">Head</option>
+            <option class="option" value="">Options</option>
         </select>
         <input type="url" name="url" id="link" placeholder="Insertar URL" >
-        <button class="solicitar">solicitar</button>
+        <button class="solicitar"><img id="solicitar" src="iconos/enviar-mensaje.png" alt=""></button>
+        <label for=""></label>
+        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
     </section>
     <div class="respuesta">
         <p id="respuestaApi">
