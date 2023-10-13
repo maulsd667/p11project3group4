@@ -18,6 +18,28 @@ fetchButton.addEventListener('click', async () => {
         const data = await response.json();
         respuesta.textContent = `Status Code: ${response.status}\n\n${JSON.stringify(data, null, 2)}`;
     } catch (error) {
-        respuesta.textContent = `Status Code: ${error.message}\n"${apiUrl}"\nError al obtener datos. Asegúrate de que la URL de la API sea válida.`;
+        respuesta.textContent = `Status Code: ${error.message}\n"${apiUrl}"\n 404 Error al obtener datos. Asegúrate de que la URL de la API sea válida.`;
     }
-});
+})
+
+const icon = document.getElementById('icon');
+
+function cambiarImagen(codigo) {
+  if (codigo === 404) {
+    icon.src = 'iconos/bajo-nivel-de-bateria.png'; // Cambia la ruta a tu imagen B
+    icon.alt = 'Icono B';  // Cambia el texto alternativo a tu imagen B
+  } else if (codigo === 200) {
+    icon.src = 'iconos/bateria-cargando.png';  // Restaura la imagen A si el código es 200
+    icon.alt = 'Icono A';  // Cambia el texto alternativo a tu imagen A
+  } else {
+    console.error('iconos/bajo-nivel-de-bateria.png');
+  }
+}
+
+// Simula una respuesta con código 200 (cambia a 404 para ver el cambio)
+const codigoRespuesta = 404;
+
+// Llama a la función para cambiar la imagen basada en el código de respuesta
+cambiarImagen(codigoRespuesta);
+
+

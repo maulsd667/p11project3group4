@@ -8,20 +8,29 @@
 </head>
 <body>
     <section class="contenedor" id="contenedor">
-        <label for="" class="control"></label>
-        <select name="" id="option">
-            <option class="option" value="">Get</option>
-            <option class="option" value="">Post</option>
-            <option class="option" value="">Put</option>
-            <option class="option" value="">Patch</option>
-            <option class="option" value="">Delete</option>
-            <option class="option" value="">Head</option>
-            <option class="option" value="">Options</option>
+            
+            <div id="contentconsole">
+                <div class="imgmove"><img id="icon" src="iconos/bateria-cargando.png" alt="Icono inicial"></div>
+            <!--<label for="" class="control"></label>-->
+            <div id="infobar">
+            <div id="text1"></div>
+            <select name="" id="option">
+                <option class="option" value="">Get</option>
+                <option class="option" value="">Post</option>
+                <option class="option" value="">Put</option>
+                <option class="option" value="">Patch</option>
+                <option class="option" value="">Delete</option>
+                <option class="option" value="">Head</option>
+                <option class="option" value="">Options</option>    
         </select>
         <input type="url" name="url" id="link" placeholder="Insertar URL" >
         <button class="solicitar"><img id="solicitar" src="iconos/enviar-mensaje.png" alt=""></button>
-        <label for=""></label>
+        </div>
+        <!--<label for=""></label>-->
         <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            </div>
+            </div>
+            
     </section>
     <script src="Script.js"></script>
 </body>

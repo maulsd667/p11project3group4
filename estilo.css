@@ -1,27 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
 }
 
 body{
     background: linear-gradient(90deg, rgba(78,136,112,1) 0%, rgba(179,214,211,1) 48%, rgba(78,136,112,1) 100%);
-    display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    
 }
 
 #contenedor{
     background: url(iconos/1024px-PSP_E1000_illustration.svg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
     padding: 80px;
     width: 1050px;
-    flex-direction: column;
+    margin-top: 200px;
+    background-position: top;
+    
+    
 }
 
 #solicitar{
@@ -74,7 +72,7 @@ body{
 }
 
 #link{
-    width: 400px;
+    width: 25em;
     height: 30px;
     background: rgb(188, 255, 247);
     color: rgb(0, 0, 0);
@@ -83,11 +81,37 @@ body{
 }
 
 #texto{
-    height: 200px;
-    width: 560px;
+    height: 150px;
+    width: 360px;
     margin: 20px;
     margin-left: 165px;
     border-radius: 6px;
     resize: none;
 
 }
+
+  #icon {
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    
+    
+}
+#contentconsole{
+    height: 40vh;
+    width: 100vw;
+    margin-top: -35px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#infobar{
+    margin-top: 40px;
+    display: flex;
+
+}
+.imgmove{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    width: 1050px;
+}
+  
