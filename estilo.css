@@ -27,6 +27,7 @@ body{
     width: 30px;
     height: 30px;
     margin-left: 10px;
+    margin-top: 2px;
    
 }
 
@@ -75,7 +76,7 @@ body{
 #texto{
     padding: 10px;
     height: 200px;
-    width: 438px;
+    width: 418px;
     margin: 20px;
     margin-left: 155px;
     border-radius: 6px;
@@ -89,7 +90,7 @@ body{
     
 }
 #contentconsole{
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     margin-top: 210px;
     margin-left: 140px;
