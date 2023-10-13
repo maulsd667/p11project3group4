@@ -18,8 +18,6 @@ fetchButton.addEventListener('click', async () => {
         const data = await response.json();
         respuesta.textContent = `Status Code: ${response.status}\n\n${JSON.stringify(data, null, 2)}`;
     } catch (error) {
-        respuesta.textContent = `Status Code: ${error.message}\nError al obtener datos. Asegúrate de que la URL de la API sea válida.`;
+        respuesta.textContent = `Status Code: ${error.message}\n"${apiUrl}"\nError al obtener datos. Asegúrate de que la URL de la API sea válida.`;
     }
 });
-
-
