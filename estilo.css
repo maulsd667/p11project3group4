@@ -92,7 +92,7 @@ body{
 #contentconsole{
     height: 50vh;
     width: 100vw;
-    margin-top: 210px;
+    margin-top: 200px;
     margin-left: 140px;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,7 @@ body{
 .imgmove{
     display: flex;
     justify-content: center;
-    margin-left: 130px;
+    margin-left: 150px;
     width: 1050px;
 }
   
