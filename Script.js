@@ -19,6 +19,7 @@ fetchButton.addEventListener('click', async () => {
         respuesta.textContent = `Status Code: ${response.status}\n\n${JSON.stringify(data, null, 2)}`;
     } catch (error) {
         respuesta.textContent = `Status Code: ${error.message}\n"${apiUrl}"\n 404 Error al obtener datos. Asegúrate de que la URL de la API sea válida.`;
+        
     }
 })
 
@@ -37,7 +38,7 @@ function cambiarImagen(codigo) {
 }
 
 // Simula una respuesta con código 200 (cambia a 404 para ver el cambio)
-const codigoRespuesta = 404;
+const codigoRespuesta = 200;
 
 // Llama a la función para cambiar la imagen basada en el código de respuesta
 cambiarImagen(codigoRespuesta);

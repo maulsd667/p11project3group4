@@ -11,12 +11,12 @@ body{
 }
 
 #contenedor{
-    background: url(iconos/1024px-PSP_E1000_illustration.svg.png);
+    background: url(iconos/Captura\ web_13-10-2023_112815_127.0.0.1.png);
     background-position: center;
     background-repeat: no-repeat;
     padding: 80px;
     width: 1050px;
-    margin-top: 200px;
+    height: 1000px;
     background-position: top;
     
     
@@ -26,7 +26,7 @@ body{
     width: 30px;
     height: 30px;
     margin-left: 10px;
-    margin-bottom: -10px;
+   
 }
 
 /*#solicitar:hover{
@@ -51,26 +51,16 @@ body{
 }
 
 #option{
-    height: 30px;
+    height: 34px;
     width: 90px;
     text-align: center;
     background: rgb(188, 255, 247);
-    color: rgb(0, 0, 0);
     border-color: blue;
     border-radius: 3px;
     margin-left: 155px;
     margin-right: 10px;
 
 }
-
-.option{
-    height: 30px;
-    background: rgb(188, 255, 247);
-    color: rgb(0, 0, 0);
-    border-color: blue;
-    border-radius: 3px;
-}
-
 #link{
     width: 25em;
     height: 30px;
@@ -81,10 +71,10 @@ body{
 }
 
 #texto{
-    height: 150px;
-    width: 360px;
+    height: 200px;
+    width: 440px;
     margin: 20px;
-    margin-left: 165px;
+    margin-left: 155px;
     border-radius: 6px;
     resize: none;
 
@@ -98,7 +88,7 @@ body{
 #contentconsole{
     height: 40vh;
     width: 100vw;
-    margin-top: -35px;
+    margin-top: 210px;
     margin-left: 150px;
     display: flex;
     flex-direction: column;
@@ -111,7 +101,7 @@ body{
 .imgmove{
     display: flex;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 130px;
     width: 1050px;
 }
   
