@@ -73,8 +73,9 @@ body{
 }
 
 #texto{
+    padding: 10px;
     height: 200px;
-    width: 440px;
+    width: 438px;
     margin: 20px;
     margin-left: 155px;
     border-radius: 6px;
@@ -91,7 +92,7 @@ body{
     height: 40vh;
     width: 100vw;
     margin-top: 210px;
-    margin-left: 150px;
+    margin-left: 140px;
     display: flex;
     flex-direction: column;
 }
